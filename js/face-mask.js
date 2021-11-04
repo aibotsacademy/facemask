@@ -10,7 +10,7 @@ let detectFace = false;
 let clearMask = false;
 let maskOnImage = false;
 let masks = [];
-let maskKeyPointIndexs = [10, 152, 234, 454]; //lips
+let maskKeyPointIndexs = [10, 234, 152, 454]; //lips
 
 
 $("#webcam-switch").change(function () {
